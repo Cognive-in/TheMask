@@ -123,7 +123,7 @@ while True:
 		# determine the class label and color we'll use to draw
 		# the bounding box and text
 		label = "Mask, allowed" if mask > withoutMask else "No Mask, not allowed"
-		color = (0, 255, 0) if label == "Mask" else (0, 0, 255)
+		color = (0, 255, 0) if label == "Mask, allowed" else (0, 0, 255)
 
 		# include the probability in the label
 		label = "{}: {:.2f}%".format(label, max(mask, withoutMask) * 100)
