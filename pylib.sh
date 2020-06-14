@@ -7,3 +7,6 @@ sudo pip3 install opencv-contrib-python
 sudo pip3 install matplotlib==3.2.1
 sudo pip3 install argparse==1.1
 sudo pip3 install scipy==1.4.1
+sudo pip3 install scikit-learn
+sudo pip3 install keras
+
